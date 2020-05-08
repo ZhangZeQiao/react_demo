@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Router from './router.js';
 
 class SquarePre extends React.Component {
 
@@ -261,7 +262,13 @@ function calculateWinner(squares) {
 
 // ========================================
 
-ReactDOM.render(
+/* ReactDOM.render(
   <Game />,
+  document.getElementById('root')
+); */
+
+// TODO: demo
+ReactDOM.render(
+  <Router />,
   document.getElementById('root')
 );
