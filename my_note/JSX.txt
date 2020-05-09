@@ -1,0 +1,2 @@
+JSX是JavaScript XML, 是一个 JavaScript 的语法扩展, 是React提供的Syntax Sugar, 能让我们可以在JS中写html标记语言。
+
